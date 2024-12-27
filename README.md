@@ -44,7 +44,7 @@ Go to the `decord` directory and run the following commands to compile the libra
 ```bash
 cd third_party/decord
 mkdir build && cd build
-cmake .. -DCMAKE_BUILD_TYPE=Release
+cmake .. -DFFMPEG_DIR=/usr/bin/ffmpeg -DCMAKE_BUILD_TYPE=Release
 make
 ```
 Then, set up the python bindings: 
